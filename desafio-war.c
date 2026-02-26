@@ -1,11 +1,11 @@
 #include <stdio.h> // entrada e saída
 #include <string.h> // manipular strings 
 
-typedef struct { //Utilizando o typedef para desenvolvimento de um código mais conciso.
+typedef struct { //Utilizando o typedef para um código mais conciso.
     char nome[30];
     char cor[10];
     int tropas;
-}Territorio;
+} Territorio;
 
 int main() {
 
